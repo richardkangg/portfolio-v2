@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../images/pink5.jpeg');
+    background-size: cover;
+}
+
+.home-container .header {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+    position: relative;
+    z-index: 50;
+}
+
+.home-container .name {
+    display: flex;
+    font-size: 7vw;
+    justify-content: center;
+    letter-spacing: -12px;
+    /* font-family: Arial;
+    font-weight: bold;
+    letter-spacing: -15px; */
+}
+
+.home-container .name .first {
+    /* color: rgba(124, 103, 157, 1); */
+    color: black;
+    margin: 0;
+}
+
+.home-container .name .last {
+    color: #c94f7c;
+    margin: 0;
+}
+
+.home-container .brand p {
+    color: black;
+    width: 600px;
+    text-align: center;
+}
+
+.home-container img {
+    width: 100vw;
+    position: absolute;
+}
+
+.home-container .scroll {
+    color: #c94f7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #c94f7c;
+    width: 300px;
+}
+
+.home-container .scroll h3 {
+    margin: 0;
+    position: relative;
+}
+
+.home-container .scroll p {
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+}

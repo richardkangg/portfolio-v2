@@ -1,0 +1,35 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../images/pink4.jpeg');
+    background-size: cover;
+    background-position: top;
+}
+
+.project-container .project .screenshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.project-container .project .screenshot img {
+    width: 800px;
+    border: 5px solid #c94f7c;
+    padding: 30px;
+}
+
+.project-container .project .screenshot .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #c94f7c;
+    margin: 30px;
+    width: 800px;
+    padding: 30px;
+}
+
+.project-container .project .screenshot .info h1 {
+    color: #c94f7c;
+}

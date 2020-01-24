@@ -1,0 +1,12 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 50;
+    background-color: rgba(250, 250, 250, .5);
+}
+
+.navigation a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}

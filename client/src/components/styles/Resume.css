@@ -1,0 +1,26 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../images/pink3.jpeg');
+    background-size: cover;
+}
+
+.resume-container .resume {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.resume-container .resume .form {
+    border: 5px solid #c94f7c;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-container .resume .form img {
+    width: 600px;
+    border: 1px solid grey;
+    margin: 50px 10px 50px 10px;
+    box-shadow: 5px 6px #888888;
+}
