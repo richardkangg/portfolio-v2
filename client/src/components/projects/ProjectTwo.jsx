@@ -12,6 +12,7 @@ function ProjectTwo() {
                     <div className="info">
                         <h1>Something Recipes</h1>
                         <p>Personal cookbook allowing user to create, edit, delete their own recipes into a mockAPI, allowing them to store their favorite meal how-to's digitally.</p>
+                        <a href="http://something-recipes.surge.sh/">Live Website Link</a>
                         <a href="https://github.com/richardkangg/Something-Recipes">Project GitHub</a>
                     </div>
                 </div>

@@ -12,6 +12,7 @@ function ProjectOne() {
                     <div className="info">
                         <h1>Something Energy Co.</h1>
                         <p>Sample website for energy drink company, showcasing various flavors available, product info, and sponsors.</p>
+                        <a href="https://richardkangg.github.io/Something-Energy/">Live Project Link</a>
                         <a href="https://github.com/richardkangg/Something-Energy">Project GitHub</a>
                     </div>
                 </div>

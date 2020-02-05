@@ -26,22 +26,22 @@ function Projects() {
                 </div>
                 <div className="examples">
                     <div className="project"><a href="/projects/p4">
-                        <img alt="plants" src={require('../images/screenshot.png')} />
+                        <img alt="plants" src={require('../images/plantsscreenshot.png')} />
                         <p className="title">Plants For Your Home</p></a>
                     </div>
                     <div className="project"><a href="/projects/p3">
-                        <img alt="richord" src={require('../images/screenshot.png')} />
+                        <img alt="richord" src={require('../images/richordscreenshot.png')} />
                         <p className="title">RICHORD</p></a>
                     </div>
-                    <div className="project"><a href="/projects/p2">
-                        <img alt="refigitate" src={require('../images/screenshot.png')} />
+                    <div className="project"><a href="/projects/uxcollab">
+                        <img alt="refigitate" src={require('../images/refrigitatescreenshot.png')} />
                         <p className="title">Refigitate</p></a>
                     </div>
-                    <div className="project"><a href="/projects/p1">
-                        <img alt="recipes" src={require('../images/screenshot.png')} />
+                    <div className="project"><a href="/projects/p2">
+                        <img alt="recipes" src={require('../images/recipesscreenshot.png')} />
                         <p className="title">Something Recipes</p></a>
                     </div>
-                    <div className="project"><a href="/projects/uxcollab">
+                    <div className="project"><a href="/projects/p1">
                         <img alt="energy" src={require('../images/screenshot.png')} />
                         <p className="title">Something Energy</p></a>
                     </div>
