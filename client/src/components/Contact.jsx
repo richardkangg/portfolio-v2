@@ -7,8 +7,10 @@ function Contact() {
         <div className="contact-container">
             <Navigation />
             <div className="contact">
+                <div className="title">
+            <h1>Contact.</h1>
+            </div>
                 <div className="form">
-                <h1>Contact</h1>
                 <p>EMAIL: richardkangg@gmail.com</p>
                 <a href='http://github.com/richardkangg'>GitHub</a>
                 <a href='http://linkedin/in/richardkangg'>LinkedIn</a>

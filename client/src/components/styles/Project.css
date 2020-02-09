@@ -1,9 +1,6 @@
 .project-container {
     display: flex;
     flex-direction: column;
-    background-image: url('../../images/pink4.jpeg');
-    background-size: cover;
-    background-position: top;
 }
 
 .project-container .project .screenshot {
@@ -14,8 +11,8 @@
 }
 
 .project-container .project .screenshot img {
-    width: 800px;
-    border: 5px solid #c94f7c;
+    width: 80vw;
+    border: 5px solid white;
     padding: 30px;
 }
 
@@ -24,12 +21,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 5px solid #c94f7c;
+    border: 5px solid white;
     margin: 30px;
-    width: 800px;
+    width: 80vw;
     padding: 30px;
+    color: white;
+}
+
+.project-container .project a {
+    color: white;
 }
 
 .project-container .project .screenshot .info h1 {
-    color: #c94f7c;
+    color: white;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .project-container .project .screenshot img {
+        width: 70vw;
+        border: 5px solid white;
+        padding: 30px;
+    }
+    
+    .project-container .project .screenshot .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid white;
+        margin: 30px;
+        width: 70vw;
+        padding: 30px;
+        color: white;
+    }
+    }

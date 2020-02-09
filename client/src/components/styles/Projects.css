@@ -1,28 +1,24 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: white;
-    background-image: url('../../images/pink.png');
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .projects-container .projects {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .projects-container .projects .projects-filter {
     flex-direction: column;
-    border: 5px solid #c94f7c;
+    border: 5px solid white;
     width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px;
     padding: 10px;
+    color: white;
 }
 
 .projects-container .examples {
@@ -34,30 +30,53 @@
 }
 
 .projects-container .examples .project {
-    border: 5px solid #c94f7c;
-    padding: 10px;
-    margin: 0 15px 15px 15px;
+    margin: 0 55px 15px 55px;
 }
 
 .projects-container .examples .project a {
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 200px;
     text-decoration: none;
-    color: #c94f7c;
+    color: white;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    font-size: 20px;
 }
 
 .projects-container .examples .project img {
     width: 200px;
+    border: 5px solid white;
+    padding: 20px;
+}
+
+.projects-container .examples .project .title {
+    display: flex;
+    width: 250px;
+    justify-content: flex-end;
 }
 
 .projects-container .examples .project p {
-    margin-top: 20px;
-    /* background-color: #ff80ab; */
-    width: 200px;
-    text-align: center;
+    margin-top: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+    .projects-container .projects {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .projects-container .examples {
+        display: flex;
+        justify-content: center;
+        width: 75vw;
+        margin-top: 30px;
+    }
+    
+    .projects-container .examples .project {
+        padding: 10px;
+        margin: 0 15px 15px 15px;
+    }
+    }

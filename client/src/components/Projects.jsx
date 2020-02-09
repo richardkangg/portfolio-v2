@@ -8,7 +8,7 @@ function Projects() {
             <Navigation />
             <div className="projects">
                 <div className="projects-filter">
-                    <h2>Technical Skills</h2>
+                    <h2>TECHNICAL SKILLS</h2>
                     <div className="skills">
                         <p>JavaScript</p>
                         <p>CSS</p>
@@ -26,24 +26,24 @@ function Projects() {
                 </div>
                 <div className="examples">
                     <div className="project"><a href="/projects/p4">
-                        <img alt="plants" src={require('../images/plantsscreenshot.png')} />
-                        <p className="title">Plants For Your Home</p></a>
+                        <img className="pic" alt="plants" src={require('../images/plantsscreenshot.png')} />
+                        <div className="title"><p>Plants For Your Home.</p></div></a>
                     </div>
                     <div className="project"><a href="/projects/p3">
-                        <img alt="richord" src={require('../images/richordscreenshot.png')} />
-                        <p className="title">RICHORD</p></a>
+                        <img className="pic" alt="richord" src={require('../images/richordscreenshot.png')} />
+                        <div className="title"><p>RICHORD.</p></div></a>
                     </div>
                     <div className="project"><a href="/projects/uxcollab">
-                        <img alt="refigitate" src={require('../images/refrigitatescreenshot.png')} />
-                        <p className="title">Refigitate</p></a>
+                        <img className="pic" alt="refigitate" src={require('../images/refrigitatescreenshot.png')} />
+                        <div className="title"><p>Refrigitate.</p></div></a>
                     </div>
                     <div className="project"><a href="/projects/p2">
-                        <img alt="recipes" src={require('../images/recipesscreenshot.png')} />
-                        <p className="title">Something Recipes</p></a>
+                        <img className="pic" alt="recipes" src={require('../images/recipesscreenshot.png')} />
+                        <div className="title"><p>Something Recipes.</p></div></a>
                     </div>
                     <div className="project"><a href="/projects/p1">
-                        <img alt="energy" src={require('../images/screenshot.png')} />
-                        <p className="title">Something Energy</p></a>
+                        <img className="pic" alt="energy" src={require('../images/screenshot.png')} />
+                        <div className="title"><p>Something Energy.</p></div></a>
                     </div>
                 </div >
             </div >
