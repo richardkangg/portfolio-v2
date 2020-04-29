@@ -23,7 +23,7 @@ body h1 {
 .home-container .header {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    /* width: 80vw; */
     align-items: center;
     position: relative;
     z-index: 50;
@@ -31,55 +31,30 @@ body h1 {
     margin-top: 50px;
 }
 
-.home-container .name {
+/* .home-container .name {
     display: flex;
     font-size: 4vw;
     justify-content: center;
     align-items: center;
-    border: 10px solid white;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     flex-direction: column;
-    width: 250px;
-}
+} */
 
-.home-container .name h1 {
-    margin: 0;
-}
-
-.home-container .name .top {
+.home-container .logo {
     display: flex;
-    color: white;
-    justify-content: space-between;
-    width: 200px;
-    padding: 10px;
+    width: 45vh;
 }
 
-.home-container .name .middle {
-    color: white;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    padding: 10px;
-}
-
-.home-container .name .bottom {
-    color: white;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    padding: 10px;
-}
 
 .home-container .header .title {
     display: flex;
     justify-content: flex-end;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 25px;
-    width: 265px;
+    font-size: 4vh;
+    width: 45vh;
+    margin-top: 2px;
 }
 
 .home-container .brand p {
@@ -88,10 +63,10 @@ body h1 {
     text-align: center;
 }
 
-.home-container img {
+/* .home-container img {
     width: 100vw;
     position: absolute;
-}
+} */
 
 .home-container .scroll {
     color: #c94f7c;
@@ -131,12 +106,12 @@ body h1 {
         position: relative;
         z-index: 50;
     }
-    .home-container .name {
+    /* .home-container .name {
         display: flex;
         font-size: 7vw;
         justify-content: center;
         letter-spacing: -5px;
-    }
+    } */
     .home-container .brand p {
         color: black;
         width: 60vw;
